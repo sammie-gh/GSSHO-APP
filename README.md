@@ -1,2 +1,2 @@
 # GSSHO App
- GSS Temporal project broadcast notificaion
+ GSS Temporal project broadcast notification app
