@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:id="@+id/notification_item_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/users_time_ago"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/montserratmedium"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:drawableLeftCompat="@drawable/ic_clock_24dp"
+                app:drawableStartCompat="@drawable/ic_clock_24dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/users_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/montserratmedium"
+                    android:padding="5dp"
+                    android:text="title"
+                    android:textColor="@color/blackBg"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/user_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:autoLink="all"
+                    android:textColor="@color/grey"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/montserratmedium"
+                    android:padding="5dp"
+                    android:text="message"
+                    android:textSize="17sp" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+

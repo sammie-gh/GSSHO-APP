@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835012158071",
+    "project_id": "ghana-statistical-service",
+    "storage_bucket": "ghana-statistical-service.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835012158071:android:427a2fce215721996b5c72",
+        "android_client_info": {
+          "package_name": "com.gh.sammie.ghanastatisticalservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835012158071-ueg29qqsv31dmhsb4uhe245iofids5ln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1KyG74auWkFFcd4igXXgxWBmbhXHKQnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835012158071-ueg29qqsv31dmhsb4uhe245iofids5ln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
